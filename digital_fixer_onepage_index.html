@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Digital Fixer — Bilingual Assistant in Morocco</title>
+  <meta name="description" content="Helping expats in Morocco handle admin, tech, and translations — fast, reliable, and bilingual." />
+  <style>
+    :root{--accent:#0b7c7c;--muted:#6b7280;--bg:#f8fafc}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;line-height:1.5;margin:0;color:#0f172a;background:var(--bg)}
+    .container{max-width:980px;margin:0 auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#1fbfbf);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    h1{font-size:28px;margin:0}
+    p.lead{color:var(--muted);margin-top:8px}
+    .hero{background:white;border-radius:12px;padding:24px;margin-top:12px;display:grid;grid-template-columns:1fr;gap:18px}
+    .cta{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{background:var(--accent);color:white;padding:12px 16px;border-radius:10px;text-decoration:none;font-weight:600;transition:0.2s}
+    .btn:hover{opacity:0.85}
+    .btn.ghost{background:transparent;color:var(--accent);border:2px solid var(--accent)}
+    .btn.ghost:hover{background:var(--accent);color:white}
+
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
+    .card{background:white;padding:16px;border-radius:10px;transition:0.2s}
+    .card:hover{transform:translateY(-3px);box-shadow:0 5px 15px rgba(0,0,0,0.08)}
+    .card h3{margin-top:0}
+    .about{display:flex;gap:18px;align-items:center}
+    .avatar{width:120px;height:120px;border-radius:12px;background:#e6eef0;display:flex;align-items:center;justify-content:center;font-size:36px;color:#0b5563;overflow:hidden}
+    .avatar img{width:100%;height:100%;object-fit:cover;border-radius:12px}
+
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:14px}
+    @media (max-width:900px){.grid{grid-template-columns:1fr}.about{flex-direction:column;align-items:flex-start}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">DF</div>
+        <div>
+          <div style="font-weight:700">Digital Fixer</div>
+          <div style="font-size:13px;color:var(--muted)">Bilingual digital assistant — Morocco</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#contact" class="btn">Message on WhatsApp</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <h1>Helping expats in Morocco handle admin, tech, and translations — fast, reliable, and bilingual.</h1>
+          <p class="lead">I provide clear, friendly support for all your digital and administrative needs. English · Français · العربية</p>
+          <div class="cta">
+            <a class="btn" href="https://wa.me/+212679300772" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+            <a class="btn ghost" href="#services">View services</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" style="margin-top:20px">
+        <h2 style="margin:0 0 10px 0">Services</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Digital Fixer for Expats</h3>
+            <p style="color:var(--muted);margin-top:6px">Avoid stress with bills, SIM cards, utilities, appointments, and local forms — I handle it all for you, saving you time and worry.</p>
+          </div>
+          <div class="card">
+            <h3>Translation & Content</h3>
+            <p style="color:var(--muted);margin-top:6px">Accurate translations and content creation in English, French, and Arabic for documents, websites, menus, and social media posts.</p>
+          </div>
+          <div class="card">
+            <h3>Tech Setup & Training</h3>
+            <p style="color:var(--muted);margin-top:6px">Wi-Fi, devices, software — fully set up and easy to use. I also provide simple training so you or your staff feel confident.</p>
+          </div>
+        </div>
+      </section>
+
+      <section style="margin-top:20px">
+        <h2 style="margin:0 0 10px 0">About me</h2>
+        <div class="card about">
+          <div class="avatar"><img src="https://via.placeholder.com/120" alt="Norallah Barehmi"></div>
+          <div>
+            <p style="margin:0 0 8px 0">Hi — I studied network security and worked as a customer onboarding agent for a POS company. I combine technical knowledge with practical experience helping people adopt new systems. I speak English, French, and Arabic, and I focus on clear, reliable support. I am passionate about making complex processes simple and accessible for everyone. I also have experience guiding clients through unfamiliar technology, ensuring they feel confident and capable after working with me. My goal is to provide fast, friendly, and trustworthy assistance for all digital and administrative needs in Morocco.</p>
+            <p style="color:var(--muted);margin:0;font-size:14px">I’m ready to help you today — reach out and let’s get started! Available for short tasks and monthly support packages. Price starts from 200 MAD for simple tasks (example rate; please confirm).</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" style="margin-top:20px">
+        <h2 style="margin:0 0 10px 0">Contact</h2>
+        <div class="card">
+          <p style="margin:0 0 12px 0;color:var(--muted)">Ready to start? Message me directly on WhatsApp or send an email.</p>
+          <p style="margin:0 0 8px 0"><strong>WhatsApp:</strong> <a href="https://wa.me/+212679300772" target="_blank">+212 679 30 07 72</a></p>
+          <p style="margin:0 0 8px 0"><strong>Email:</strong> <a href="mailto:norallahbarehmi@gmail.com">norallahbarehmi@gmail.com</a></p>
+          <p style="margin:0;color:var(--muted);font-size:13px">All services comply with Moroccan regulations.</p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div>© <span id="year"></span> Digital Fixer — Built for Morocco</div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
